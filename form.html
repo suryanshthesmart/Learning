@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Student form </legend>
+        <h2> Student Registration</h2>
+        <label for="Name">Name: </label>
+        <input type="Name" id="Name" name="Student name" placeholder="Enter your name">
+        <br>
+        <label for="Email" >Email: </label>
+        <input type="Email" id="Email" name="Email" placeholder="enter your email">
+        <br>
+         <label for="dob" >Date of Birth: </label>
+        <input type="date" id="dob" name="dob" placeholder="enter your date of birth">
+        <br>
+         <label for="Course" >Course: </label>
+        <select id= "Course" name="Course">
+            <option>Bca</option>
+            <option>B.tech</option>
+            <option>Mca</option>
+            </select>
+        <br>
+        <label>Gender: </label>
+        <input type="radio" id="male"
+        name="gender" value="male">
+        <label for="male">male</label><br>
+        
+        <input type="radio" id="female"
+        name="gender" value="female">
+        <label for="female">female</label><br>
+         
+        <input type="radio" id="other"
+        name="gender" value="other">
+        <label for="other">other</label><br>
+<input type="submit" value="finish">
+    <button onclick="alert('hello')">click</button>
+    <style>
+        alert('welcome')
+    </style>
+    <script src="script.js"></script>
+        </fieldset>
+    </form>
+</body>
+</html>

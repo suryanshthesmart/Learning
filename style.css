@@ -1,0 +1,14 @@
+body{
+    background-color: rgba(2, 204, 36, 0.822);}
+        h2{
+            color: rgb(226, 43, 58);
+            margin-left: 20px;
+        }
+        p{
+            color: yellow;
+        }
+        .important{color: rgb(136, 255, 0);}
+        #pagal{color: hotpink;}
+        #bhumiChudail{color: brown;}
+        input[type = "Name"]{color: blueviolet;}
+        h2{background-color: blueviolet;}
